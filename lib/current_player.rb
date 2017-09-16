@@ -1,4 +1,3 @@
- board = ["O", " ", " ", "O", "X", " ", "X", " ", "X"]
 def turn_count(board)
     counter = 0
 board.each do |spot|
@@ -12,4 +11,4 @@ end
 def current_player(board)
 
 end
-puts turn_count(board)
+
