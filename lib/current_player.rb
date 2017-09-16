@@ -12,4 +12,4 @@ end
 def current_player(board)
 
 end
-turn_count(board)
+puts turn_count(board)
