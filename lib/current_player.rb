@@ -1,7 +1,7 @@
 def turn_count(board)
     counter = 0
 board.each do |spot|
-    if board[color] != " " || board[color] != "" || board[color] != nil
+    if board[spot] != " " || board[spot] != "" || board[spot] != nil
         counter += 1
     end
 end
